@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Sort {
 
-    public static List<Integer> BubbleSort(List<Integer> list){
+    public static void BubbleSort(List<Integer> list){
         for(int i=0;i<list.size();i++){
             boolean flag=true;
             for(int j=i+1;j<list.size();j++){
@@ -17,6 +17,5 @@ public class Sort {
             }
             if(flag) break;
         }
-        return list;
     }
 }
