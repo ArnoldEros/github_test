@@ -22,5 +22,6 @@ public class UtilTest {
         for (Integer integer : list) {
             System.out.println(integer);
         }
+        System.out.println("----------");
     }
 }
